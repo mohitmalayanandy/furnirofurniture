@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import { assets } from '../../assets/assets'
+import { Link } from 'react-router-dom'
+
 const Navbar = () => {
   const [menu, setMenu] = useState("")
   return (
@@ -10,10 +12,10 @@ const Navbar = () => {
       <h2 className="logo-text">FURNIRO</h2>
       </div>
       <ul className="navbar-menu">
-        <li onClick={()=>setMenu("home")} className={menu === "home"?"active":""}>Home</li>
-        <li onClick={()=>setMenu("shop")} className={menu === "shop"?"active":""}>Shop</li>
-        <li onClick={()=>setMenu("about")} className={menu === "about"?"active":""}>About</li>
-        <li onClick={()=>setMenu("contact")} className={menu === "contact"?"active":""}>Contact</li>
+        <li onClick={()=>setMenu("home")} className={menu === "home"?"active":""}><Link to="/">Home</Link></li>
+        <li onClick={()=>setMenu("shop")} className={menu === "shop"?"active":""}><Link to="/shop">Shop</Link></li>
+        <li onClick={()=>setMenu("about")} className={menu === "about"?"active":""}><Link to="/about">About</Link></li>
+        <li onClick={()=>setMenu("contact")} className={menu === "contact"?"active":""}><Link to="/contact">Contact</Link></li>
       </ul>
       <div className="navbar-right">
         <img src={assets.search_icon} alt="navbar-search-icon" className="navbar-search-icon" />
