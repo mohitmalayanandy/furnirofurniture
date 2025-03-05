@@ -1,0 +1,69 @@
+.hashshare {
+  text-align: center;
+  padding: 40px;
+  background-color: #f8f8f8;
+}
+
+.hashshare p {
+  font-size: 18px;
+  color: #333;
+}
+
+.hashshare h2 {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.divider {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.divider-left {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.divider-left-up,
+.divider-left-down {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.divider-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider-center img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.divider-right {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.divider-right-up,
+.divider-right-down {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.divider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}

@@ -1,11 +1,16 @@
-import './App.css';
+import React from 'react'
+import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
+import Home from './pages/Home/Home'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      My App
+    <div>
+      <Navbar />
+      <Home />
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

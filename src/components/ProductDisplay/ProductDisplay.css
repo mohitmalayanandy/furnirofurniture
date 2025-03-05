@@ -1,0 +1,17 @@
+.product-display {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .product-display h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .product-display-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
