@@ -10,25 +10,25 @@ const HashShare = () => {
       <div className="divider">
         <div className='divider-left'>
           <div className='divider-left-up'>
-            <img src={product_list.product_1} alt="Bedroom Setup 1" />
-            <img src={product_list.product_2} alt="Bedroom Setup 2" />
+            <img src={product_list[0].image} alt="Bedroom Setup 1" />
+            <img src={product_list[1].image} alt="Bedroom Setup 2" />
           </div>
           <div className='divider-left-down'>
-            <img src={product_list.product_3} alt="Bedroom Setup 3" />
-            <img src={product_list.product_4} alt="Bedroom Setup 4" />
+            <img src={product_list[2].image} alt="Bedroom Setup 3" />
+            <img src={product_list[3].image} alt="Bedroom Setup 4" />
           </div>
         </div>
         <div className='divider-center'>
-          <img src={product_list.product_10} alt="Dining Setup" />
+          <img src={product_list[4].image} alt="Dining Setup" />
         </div>
         <div className='divider-right'>
           <div className='divider-right-up'>
-            <img src={product_list.product_15} alt="Dining Setup 15" />
-            <img src={product_list.product_11} alt="Dining Setup 11" />
+            <img src={product_list[5].image} alt="Dining Setup 15" />
+            <img src={product_list[6].image} alt="Dining Setup 11" />
           </div>
           <div className='divider-right-down'>
-            <img src={product_list.product_7} alt="Dining Setup 7" />
-            <img src={product_list.product_8} alt="Dining Setup 8" />
+            <img src={product_list[7].image} alt="Dining Setup 7" />
+            <img src={product_list[8].image} alt="Dining Setup 8" />
           </div>
         </div>
       </div>

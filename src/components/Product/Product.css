@@ -6,7 +6,7 @@
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 250px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.1s ease-in-out;
   }
   
   .product:hover {
