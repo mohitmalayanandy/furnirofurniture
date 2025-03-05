@@ -1,10 +1,12 @@
 import React from 'react'
 import './Shop.css'
 import ProductDisplay from '../../components/ProductDisplay/ProductDisplay'
+import PageBanner from '../../components/PageBanner/PageBanner'
 const Shop = () => {
   return (
     <div className="shop">
-        <ProductDisplay category='all' />
+      <PageBanner />
+      <ProductDisplay category='all' />
     </div>
   )
 }

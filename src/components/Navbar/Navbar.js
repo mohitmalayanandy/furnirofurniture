@@ -19,9 +19,10 @@ const Navbar = () => {
       </ul>
       <div className="navbar-right">
         <img src={assets.search_icon} alt="navbar-search-icon" className="navbar-search-icon" />
-        <img src={assets.wishlist_icon} alt="navbar-wishlist-icon" className="navbar-wishlist-icon" />
-        <img src={assets.cart_icon} alt="navbar-cart-icon" className="navbar-cart-icon" />
-        <img src={assets.profile_icon} alt="navbar-profile-icon" className="navbar-profile-icon" />
+        <Link to="/wishlist"><img src={assets.wishlist_icon} alt="navbar-wishlist-icon" className="navbar-wishlist-icon" /></Link>
+        <Link to="/cart"><img src={assets.cart_icon} alt="navbar-cart-icon" className="navbar-cart-icon" /></Link>
+        <Link to="/user"><img src={assets.profile_icon} alt="navbar-profile-icon" className="navbar-profile-icon" /></Link>
+        
       </div>
     </div>
   )

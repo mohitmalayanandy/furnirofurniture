@@ -1,5 +1,22 @@
 .about{
-    background-color: chartreuse;
-    height: 80vh;
-    width: 100%;
+    background-image: url('../../assets/banner_image.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+.about-container{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
 }

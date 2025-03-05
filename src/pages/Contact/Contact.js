@@ -1,20 +1,31 @@
 import React from 'react';
 import './Contact.css';
+import PagrBanner from '../../components/PageBanner/PageBanner';
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-        consectetur, libero sit amet aliquam tincidunt, nunc tortor tempus
-        sapien, ut ultrices nisl purus nec justo. Nulla facilisi. Nullam
-        tincidunt, nunc sed rutrum ultricies, mi metus tincidunt libero, eu auctor
-        libero nunc a felis. Sed vel justo nec purus hendrerit dictum. Nullam
-        fringilla, turpis eget ultricies aliquam, turpis odio gravida nisl, nec
-      </p>
+    <>
+    <PagrBanner />
+    <div className="contact">
+      <h2>Contact Us</h2>
+      <form className="contact-form">
+        <label>
+          Name:
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email:
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Message:
+          <textarea name="message" required></textarea>
+        </label>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
-  )
+    </>
+  );
 }
 
-export default Contact
+export default Contact;

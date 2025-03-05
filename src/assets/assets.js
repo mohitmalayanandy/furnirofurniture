@@ -4,9 +4,12 @@ import cart_icon from './cart_icon.png'
 import profile_icon from './profile_icon.png'
 import logo from './logo.png'
 import banner_image from './banner_image.png'
+import page_banner from './page_banner.jpeg'
+
 import facebook_icon from './facebook_icon.png'
 import twitter_icon from './twitter_icon.png'
 import linkedin_icon from './linkedin_icon.png'
+
 import inspiration_1 from './inspiration_1.jpeg'
 import inspiration_2 from './inspiration_2.jpeg'
 
@@ -61,7 +64,8 @@ export const assets = {
   twitter_icon,
   linkedin_icon,
   inspiration_1,
-  inspiration_2
+  inspiration_2,
+  page_banner
 }
 
 export const category_list = [
