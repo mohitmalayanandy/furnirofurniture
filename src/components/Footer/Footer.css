@@ -70,3 +70,22 @@
     background-color: gray;
     border: none;
 }
+
+@media screen and (max-width: 768px){
+    .footer-content{
+        grid-template-columns: 1fr;
+    }
+    .footer-content-left, .footer-content-right, .footer-content-center{
+        align-items: center;
+        text-align: center;
+    }
+    .footer-content-right{
+        gap: 20px;
+    }
+    .footer-content-right input{
+        width: 80%;
+    }
+    .footer-content-right button{
+        width: 80%;
+    }
+}

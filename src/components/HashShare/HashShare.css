@@ -67,3 +67,27 @@
   object-fit: cover;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .divider {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .divider-left,
+  .divider-right {
+    grid-template-rows: 1fr;
+  }
+
+  .divider-left-up,
+  .divider-left-down,
+  .divider-right-up,
+  .divider-right-down {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.divider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}

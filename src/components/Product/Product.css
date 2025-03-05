@@ -45,6 +45,50 @@
   .product-price {
     font-size: 1.1rem;
     font-weight: bold;
-    color: #ff5733;
+    color: #000000;
   }
   
+
+  @media screen and (max-width: 768px) {
+    .product {
+      width: 200px;
+    }
+  
+    .product-img-container {
+      height: 150px;
+    }
+  
+    .product-name {
+      font-size: 1rem;
+    }
+  
+    .product-desc {
+      font-size: 0.8rem;
+    }
+  
+    .product-price {
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .product {
+      width: 150px;
+    }
+  
+    .product-img-container {
+      height: 100px;
+    }
+  
+    .product-name {
+      font-size: 0.9rem;
+    }
+  
+    .product-desc {
+      font-size: 0.7rem;
+    }
+  
+    .product-price {
+      font-size: 0.9rem;
+    }
+  }
